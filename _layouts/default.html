@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | Rocket Design | oli.cx{% else %}Rocket Design | oli.cx{% endif %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;400;600&family=Noto+Sans:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+    <meta name="description" content="{% if page.title %}{{ page.title }} {% else %}Rocket Design{% endif %}">
+    <meta property="og:description" content="{% if page.title %}{{ page.title }} {% else %}Rocket Design{% endif %}">
+    <meta property="og:type" content="web" />
+    <meta property="og:url" content="{{site.url}}{{page.url}}" />
+    <meta property="og:image" content="https://rocketdesign.oli.cx/assets/ogp.png" />
+    <meta name="theme-color" content="#FFFFF">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">
+            <span>ROCKET</span>
+            <span>DESIGN</span>
+        </a>
+
+        <a>
+            <span>oli.cx</span>
+        </a>
+    </nav>
+
+    <header>
+        <h1>{{page.title}}</h1>
+
+    </header>
+    <main>
+        {{content}}
+    </main>
+
+    <footer>
+        <span>The content on this page is intended to be purely scientific and educational.</span>
+        <span>me [at] oli.cx</span>
+        <span>&copy; Copyright 2022, oli.cx</span>
+    </footer>
+</body>
+</html>
