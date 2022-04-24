@@ -102,8 +102,9 @@ main {
 section {
     padding: 0.5rem 2rem;
     width: 100%;
-    display: flex;
-    gap: 1rem;
+}
+
+section:not(:last-child){
     border-bottom: 2px solid currentColor;
 }
 
