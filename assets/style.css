@@ -84,7 +84,7 @@ header {
     border-top: 2px solid currentColor;
     border-bottom: 2px solid currentColor;
 
-    text-indent:1em;
+    text-indent: 1em;
 }
 
 main {
@@ -96,7 +96,6 @@ main {
 
     border-radius: 0rem;
     background-color: var(--negative);
-    border: 2px solid currentColor;
 }
 
 section {

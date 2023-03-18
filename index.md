@@ -1,4 +1,2 @@
-# Rocket Design Blog
+# Advancements in aerospace engineering
 
-## Models
-- <a href="/models/a1"> A1 </a>
