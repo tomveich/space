@@ -1,6 +1,6 @@
 ---
 title: Engineering the future
-description: Significant advances in research of sustainable biomaterials
+description: 
 ---
 
 {% for post in site.posts limit:4 %}
