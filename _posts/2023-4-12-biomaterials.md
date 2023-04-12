@@ -1,6 +1,6 @@
 ---
 title: "Are biomaterials the future of space engineering?"
-description: "Significant advances in the research of sustainable biomaterials"
+description: "Significant advances in the research of sustainable biomaterials were achieved"
 image: "/images/biomaterials.jpg"
 ---
 
