@@ -1,6 +1,7 @@
 ---
 title: "Are biomaterials the future of space engineering?"
 description: "Significant advances in the research of sustainable biomaterials"
+image: "/images/biomaterials.jpg"
 ---
 
 # Sustainable biomaterials in the field of space engineering
